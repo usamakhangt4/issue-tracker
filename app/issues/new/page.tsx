@@ -17,7 +17,7 @@ const NewIssuePage = () => {
   const router = useRouter()
   const {register, control, handleSubmit} = useForm<IssueFormTypes>()
   const [error, setError] = useState('')
-  console.log(error);
+
 
   return (
     <div className='max-w-xl'>
